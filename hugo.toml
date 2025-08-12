@@ -30,3 +30,8 @@ theme = 'PaperMod'
         name = 'spotify'
         url = 'https://open.spotify.com/playlist/7HmZdRpGVrUh9PN9QyrpjZ'
 
+[[menu.main]]
+	identifier = "posts"
+	name = "Blog"
+	url = "/posts/"
+	weight = 10
