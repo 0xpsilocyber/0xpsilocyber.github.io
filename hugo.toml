@@ -3,13 +3,27 @@ languageCode = 'en-us'
 title = '0xpsilocyber // Infosec & Sweet Snazzy Jams'
 theme = 'PaperMod'
 
+# This section activates the special homepage layout
+# and tells the theme where to display your social icons.
+[params.profileMode]
+    enabled = true
+    title = "0xpsilocyber" # This will be the main title on the page
+    subtitle = "Infosec & Sweet Snazzy Jams"
+    imageUrl = "" # Leave blank for now
+    imageWidth = 120
+    imageHeight = 120
+
+# Your social icons will be automatically pulled from here
 [params.socialIcons]
-	[params.socialIcons.github]
-		name = 'github'
-		url = 'https://github.com/0xpsilocyber'
-	[params.socialIcons.bluesky]
-		name = 'bluesky'
-		url = 'https://bsky.app/profile/0xpsilocyber.com'
-	[params.socialIcons.spotify]
-		name = 'spotify'
-		url = 'https://open.spotify.com/playlist/7HmZdRpGVrUh9PN9QyrpjZ'
+    [params.socialIcons.github]
+        name = 'github'
+        url = 'https://github.com/0xpsilocyber'
+
+    [params.socialIcons.bluesky]
+        name = 'bluesky'
+        url = 'https://bsky.app/profile/0xpsilocyber.com'
+
+    [params.socialIcons.spotify]
+        name = 'spotify'
+        url = 'https://open.spotify.com/playlist/7HmZdRpGVrUh9PN9QyrpjZ'
+
