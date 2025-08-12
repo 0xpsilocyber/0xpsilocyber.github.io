@@ -1,4 +1,15 @@
 baseURL = 'https://0xpsilocyber.com/'
 languageCode = 'en-us'
-title = '0xpsilocyber'
+title = '0xpsilocyber // Infosec & Sweet Snazzy Jams'
 theme = 'PaperMod'
+
+[params.socialIcons]
+	[params.socialIcons.github]
+		name = 'github'
+		url = 'https://github.com/0xpsilocyber'
+	[params.socialIcons.bluesky]
+		name = 'bluesky'
+		url = 'https://bsky.app/profile/0xpsilocyber.com'
+	[params.socialIcons.spotify]
+		name = 'spotify'
+		url = 'https://open.spotify.com/playlist/7HmZdRpGVrUh9PN9QyrpjZ'
