@@ -3,11 +3,10 @@ languageCode = 'en-us'
 title = '0xpsilocyber // Infosec & Sweet Snazzy Jams'
 theme = 'PaperMod'
 
-# This new section tells Hugo where your main blog content lives.
 [params]
-    mainSections = ["posts"]
+    # This now tells the homepage to list posts from BOTH sections
+    mainSections = ["infosec", "music"]
 
-# This section enables the special homepage layout.
 [params.profileMode]
     enabled = true
     title = "0xpsilocyber"
@@ -16,22 +15,27 @@ theme = 'PaperMod'
     imageWidth = 120
     imageHeight = 120
 
-# Your social icons will be automatically pulled from here.
 [params.socialIcons]
     [params.socialIcons.github]
         name = 'github'
         url = 'https://github.com/0xpsilocyber'
-
     [params.socialIcons.bluesky]
         name = 'bluesky'
         url = 'https://bsky.app/profile/0xpsilocyber.com'
-
     [params.socialIcons.spotify]
         name = 'spotify'
         url = 'https://open.spotify.com/playlist/7HmZdRpGVrUh9PN9QyrpjZ'
 
+# Your new, two-button main navigation menu
 [[menu.main]]
-	identifier = "posts"
-	name = "Blog"
-	url = "/posts/"
-	weight = 10
+    identifier = "infosec"
+    name = "Infosec"
+    url = "/infosec/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "music"
+    name = "Music"
+    url = "/music/"
+    weight = 20
+
