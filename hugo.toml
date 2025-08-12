@@ -1,0 +1,4 @@
+baseURL = 'https://0xpsilocyber.com/'
+languageCode = 'en-us'
+title = '0xpsilocyber'
+theme = 'PaperMod'
