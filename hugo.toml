@@ -3,17 +3,20 @@ languageCode = 'en-us'
 title = '0xpsilocyber // Infosec & Sweet Snazzy Jams'
 theme = 'PaperMod'
 
-# This section activates the special homepage layout
-# and tells the theme where to display your social icons.
+# This new section tells Hugo where your main blog content lives.
+[params]
+    mainSections = ["posts"]
+
+# This section enables the special homepage layout.
 [params.profileMode]
     enabled = true
-    title = "0xpsilocyber" # This will be the main title on the page
+    title = "0xpsilocyber"
     subtitle = "Infosec & Sweet Snazzy Jams"
-    imageUrl = "" # Leave blank for now
+    imageUrl = ""
     imageWidth = 120
     imageHeight = 120
 
-# Your social icons will be automatically pulled from here
+# Your social icons will be automatically pulled from here.
 [params.socialIcons]
     [params.socialIcons.github]
         name = 'github'
