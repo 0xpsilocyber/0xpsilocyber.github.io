@@ -4,7 +4,7 @@ date: 2025-08-13T00:00:00-00:00
 draft: false
 ---
 
-![Album Art](https://i.scdn.co/image/ab67616d0000b2737e58a39b771521cb9347c5c0)
+<img src="https://i.scdn.co/image/ab67616d0000b2737e58a39b771521cb9347c5c0" alt="Album Art">
 
 ## Analysis
 
