@@ -1,6 +1,6 @@
 baseURL = 'https://0xpsilocyber.com/'
 languageCode = 'en-us'
-title = '0xpsilocyber // Infosec & Sweet Snazzy Jams'
+title = '0x.psilocyber // Infosec & Sweet Snazzy Jams'
 theme = 'PaperMod'
 
 [params]
@@ -9,7 +9,7 @@ theme = 'PaperMod'
 
 [params.profileMode]
     enabled = true
-    title = "0xpsilocyber"
+    title = "0x.psilocyber"
     subtitle = "Infosec & Sweet Snazzy Jams"
     imageUrl = ""
     imageWidth = 120
@@ -38,4 +38,3 @@ theme = 'PaperMod'
     name = "Music"
     url = "/music/"
     weight = 20
-
