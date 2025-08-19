@@ -1,6 +1,6 @@
 ---
 title: Welcome to the Blog; preamble & Milk & Bone - Hands Dirty Analysis
-date: 2025-08-18T00:00:00-00:00
+date: 2025-08-19T00:00:00-00:00
 draft: false
 ---
 
@@ -35,16 +35,16 @@ I suppose that's why I'm writing this, this is what music does to me, lyrics, so
 
 I'm not an expert by any means on instrumentation, but the way the synths mix and meld with the vocals brings to me a sense of mourning, loving, bliss. Sounds pretty contradictory right? But that's why I love it. To me the track encapsulates what it means to be at peace with a lost love, yet, still accepting and longing for that person. Two things can be true, it is possible to move on, while still warmly remembering the feelings/memories/imagery associated. 
 
-*Wanna get my hands dirty.
-Please tell me..
-We'll meet again.
+*Wanna get my hands dirty.*
+*Please tell me..*
+*We'll meet again.*
 
-*I need your lips on me, constantly.
-'Til my heart bends.
+*I need your lips on me, constantly.*
+*'Til my heart bends.*
 
 *Yeah, you can lie to me, maneuver me, drive me insane.*
 
-*Tell me you'll live for me, **Die** with me, smallest of deaths.***
+*Tell me you'll live for me, **Die** with me, smallest of deaths.*
 
 To me, the lyrics evoke the feelings of wantingness, but the music, the instrumentation conveys peace and acceptance. Almost as if the mind and the emotions are at odds with one another. As if the music itself evokes the true self, hidden underneath all the layers of ego, flesh, blood. The thoughts, those are always just thoughts, but the feelings underneath the layers, that's real.
 
@@ -63,3 +63,4 @@ I feel the egg, the raven, represents to me that this is life, we live, we grow,
 ✨ Fun fact(3): ✨ *The Owl in Twin Peaks is a representation of life between two worlds, of the known and the unknown. The inner eye and outer eye.*
 
 ---
+
