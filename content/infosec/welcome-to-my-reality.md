@@ -1,6 +1,6 @@
 ---
 title: "My Path into Infosec"
-date: 2025-08-20T19:45:26-07:00
+date: 2025-08-20T00:00:00-00:00
 draft: false
 ---
 
