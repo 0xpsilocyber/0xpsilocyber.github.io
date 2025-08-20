@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Infosecs on 0x.psilocyber // Infosec &amp; Sweet Snazzy Jams</title>
+    <link>http://localhost:1313/infosec/</link>
+    <description>Recent content in Infosecs on 0x.psilocyber // Infosec &amp; Sweet Snazzy Jams</description>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/infosec/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/infosec/welcome-to-my-reality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/infosec/welcome-to-my-reality/</guid>
+      <description>My path into Infosec &amp;ndash; Part 1 title: &amp;ldquo;My Path into Infosec&amp;rdquo; date: 2025-08-20T19:45:26-07:00 draft: true Greetings &amp;amp; Special Thanks ℹ️ Heads Up: I write specifically keeping editing to a minimum. There are likely spelling, grammatical mistakes. I prefer to keep my thoughts as close to raw as possible, and sometimes that means going off on tangents. Thank you for reading, if you are not dissuaded.
+Hi, my name is Ricky, and at the time of this writing, I&amp;rsquo;m a senior incident responder for Google Cloud, specifically, I have built many of the processes that are utilized across GCP for responding to threats of various sizes and scale.</description>
+    </item>
+  </channel>
+</rss>

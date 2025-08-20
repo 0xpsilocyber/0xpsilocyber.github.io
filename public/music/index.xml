@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Musics on 0x.psilocyber // Infosec &amp; Sweet Snazzy Jams</title>
+    <link>http://localhost:1313/music/</link>
+    <description>Recent content in Musics on 0x.psilocyber // Infosec &amp; Sweet Snazzy Jams</description>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to the Blog; preamble &amp; Milk &amp; Bone - Hands Dirty Analysis</title>
+      <link>http://localhost:1313/music/hands-dirty/</link>
+      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/hands-dirty/</guid>
+      <description>Preamble The Vibee: Hands Dirty Artist: Milk &amp;amp; Bone
+Welcome, this is my first attempt at writing one of these &amp;lsquo;blogs&amp;rsquo; Lol. I tend to write how I think, speak and generally view data and information. If you know me, you know how sarcastic and melancholy I can be. I express myself heavily through music, lyrics, when I don&amp;rsquo;t have the words, music speaks on my behalf. If you&amp;rsquo;ve followed me on Twitter, Bluesky, or anything really, since I was a kid I&amp;rsquo;ve always shared music to sort of communicate my inner-world to the outside world.</description>
+    </item>
+  </channel>
+</rss>

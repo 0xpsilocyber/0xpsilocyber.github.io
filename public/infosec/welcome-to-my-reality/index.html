@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>0x.psilocyber // Infosec &amp; Sweet Snazzy Jams</title>
+<meta name="keywords" content="">
+<meta name="description" content="My path into Infosec &ndash; Part 1 title: &ldquo;My Path into Infosec&rdquo; date: 2025-08-20T19:45:26-07:00 draft: true Greetings &amp; Special Thanks ℹ️ Heads Up: I write specifically keeping editing to a minimum. There are likely spelling, grammatical mistakes. I prefer to keep my thoughts as close to raw as possible, and sometimes that means going off on tangents. Thank you for reading, if you are not dissuaded.
+Hi, my name is Ricky, and at the time of this writing, I&rsquo;m a senior incident responder for Google Cloud, specifically, I have built many of the processes that are utilized across GCP for responding to threats of various sizes and scale.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/infosec/welcome-to-my-reality/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/infosec/welcome-to-my-reality/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="0x.psilocyber // Infosec &amp; Sweet Snazzy Jams (Alt + H)">0x.psilocyber // Infosec &amp; Sweet Snazzy Jams</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/infosec/" title="Infosec">
+                    <span>Infosec</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/music/" title="Music">
+                    <span>Music</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="my-path-into-infosec----part-1">My path into Infosec &ndash; Part 1<a hidden class="anchor" aria-hidden="true" href="#my-path-into-infosec----part-1">#</a></h2>
+<hr>
+<h2 id="draft-true">title: &ldquo;My Path into Infosec&rdquo;
+date: 2025-08-20T19:45:26-07:00
+draft: true</h2>
+<h2 id="greetings--special-thanks">Greetings &amp; Special Thanks<a hidden class="anchor" aria-hidden="true" href="#greetings--special-thanks">#</a></h2>
+<blockquote>
+<p>ℹ️  <strong>Heads Up:</strong> I write specifically keeping editing to a minimum. There are likely spelling, grammatical mistakes. I prefer to keep my thoughts as close to raw as possible, and sometimes that means going off on tangents. Thank you for reading, if you are not dissuaded.</p>
+</blockquote>
+<p>Hi, my name is Ricky, and at the time of this writing, I&rsquo;m a senior incident responder for Google Cloud, specifically, I have built many of the processes that are utilized across GCP for responding to threats of various sizes and scale.</p>
+<p>While that may sound impressive, it was not done in a vacuum, I learned from some of the best, specifically &ndash; folks like <a href="https://mattlinton.com/blog/provingnegatives.html">Matt Linton</a>, <a href="https://www.blackhillsinfosec.com/team/john-strand/">John Strand</a>, <a href="https://infosec.exchange/@malwarejake">Jake Williams</a>, <a href="https://www.sans.org/profiles/rob-lee">Rob Lee</a>, <a href="https://tisiphone.net/">Lesley Carhart</a>, either through personal 1:1 mentorship, classes, or in general reading their blogs and education. All folks I look up to, admire, and aspire to become as I grow further in my career.</p>
+<p>In addition, I&rsquo;ve been lucky, privileged even, to work with amazing folks from Google who have honed and built up our IR processes for over a decade, influenced by processes such as the <a href="https://emilms.fema.gov/is_0029a/groups/27.html">Incident Command System (ICS)</a>. So while I may have constructed many of our new processes, I would not have been able to do so without the historical context and learnings of those who came before me, and are still improving to this day.</p>
+<hr>
+<h2 id="professional-tldr">Professional TL;DR<a hidden class="anchor" aria-hidden="true" href="#professional-tldr">#</a></h2>
+<p>At a glance, this is my professional profile:</p>
+<ul>
+<li>15 years DFIR experience.</li>
+<li>Former: (GS, Civilian) US-GOV, DoD, USAF, Gov Contracting, Rackspace, Amazon, Blackbaud, ARM.</li>
+<li>~20 certs, GIAC galore.</li>
+<li>Bachelor&rsquo;s degree from a small university in San Antonio.</li>
+<li>Currently finishing Master&rsquo;s degree w/ SANS.</li>
+<li>Responded to threats of many different sizes and scales.</li>
+</ul>
+<hr>
+<h2 id="my-path-to-dfir">My Path to DFIR<a hidden class="anchor" aria-hidden="true" href="#my-path-to-dfir">#</a></h2>
+<p>So here&rsquo;s where we get a little heavy I suppose.</p>
+<h3 id="where-i-come-from">Where I Come From<a hidden class="anchor" aria-hidden="true" href="#where-i-come-from">#</a></h3>
+<p>I was born and raised in San Antonio, Texas. I did not come from wealth, nor did I come from a family with any sort of professional AND/OR formal education. My father was a gangster, worked the streets, utilized our familial ties to cartel interests to be part of and engaged with underworld markets. My mother, not much better, was drawn into that same life, growing up around shootings, drug deals, was just a normal part of life for me.</p>
+<p>As you can imagine, my parents didn&rsquo;t really raise me. I was tossed between whomever in my family would take responsibility for me week over week; if I recall correctly, I believe I was about <em>10 years old when my grandmother took me into a her small ranch</em> out in Lytle/Atascosa Texas. It was my <strong>first time</strong> with <strong>my own bedroom</strong>, if that gives you any indication of the life I had lead up until that point.</p>
+<p>Growing up, I spent much of my time alone. &ndash; As a neurodiverse child in this environment, &ndash;  I found my own way to keep busy and distracted from.. Well the hell that was my childhood. That spurred particularly in my <strong>interest w/ computers.</strong> You see, my parents would show up <strong>occasionally</strong> in my life, and would love bomb me with gifts either via illicit gains or to <em>act</em> as well as they could to emulate paternal instincts. It wasn&rsquo;t until I was much older that I saw this for what it was.</p>
+<p>So every now and then, my father/mother would show up with a game console, or a computer, it was the only way they seemed to know to communicate with me. And well, to be frank, I am grateful they did that, because I would not be where I am without access to such tools. But beyond that, I had little in terms of life guidance, mentorship, I figured out a lot on my own&hellip; Little did I know that figuring shit out on my own, would be the primary theme of the life I have lived up until now.</p>
+<blockquote>
+<p>✨  <strong>Fun Fact:</strong> I started getting trouble for <em>hacking</em> and messing with computers as early as the 4th grade lol.</p>
+</blockquote>
+<h3 id="tinkering-gaming-music----the-early-years">Tinkering, Gaming, Music &ndash; the early years.<a hidden class="anchor" aria-hidden="true" href="#tinkering-gaming-music----the-early-years">#</a></h3>
+<p>Well, now that you know that fun little bit of my background, this is the part where I share my Rocky Balboa montage of tinkering and breaking shit for fun and gainz. You see, I hated the life of crime my family spurred from. I remember once even crying in a Chuck E. Cheese because my mother wanted me to steal tokens from a machine to use on other games, Lol. But still, they taught me lessons of thievery, force, exploitation, general roguish behavior to get ahead in life. It always felt wrong.. But that was how I was raised early on. I was not an angel, but I did my best considering the environment.</p>
+<p>Looking back on it all, it’s no wonder I ended up in a career doing my best to respond to people and organizations that wish to cause harm.</p>
+<h4 id="escaping-to-the-country">Escaping To the Country<a hidden class="anchor" aria-hidden="true" href="#escaping-to-the-country">#</a></h4>
+<p>Thankfully, my grandmother showed me the value of hardwork, dedication, peace, quiet. She was a hard woman, dropped out of school in the 7th grade to tend to the familial ranch, pick cotton, raise animals, eventually she became a seamstress for Levi&rsquo;s between 1950-90&rsquo;s. Funnily enough, she ended up becoming an in-home assistant providing medical care to people who couldn&rsquo;t take care of themselves. I say funny, because she was doing this well into her late 70&rsquo;s taking care of people who were much younger than her. That being said, she is a hardworker, and is still to this day working on her yard, stayin&rsquo; young.</p>
+<p>So with that backstory, most of my middle / highschool years, I lived alone on the ranch. I would explore the country, the lakes, go for walks on my own, little to no supervision, and found my own world out there in the country. I&rsquo;d walk around with my cdplayer, blasting Linkin Park, Evancesence, Papa Roach, I thought I was so cool, Lol. But as you can imagine, I&rsquo;d get bored, and would start <em>tinkering.</em></p>
+<blockquote>
+<p>✨  <strong>Fun Fact:</strong> Amy Lee began her singing career at 16 on an album called &lsquo;Origins.&rsquo; I would use Kazaa and Limewire to find hidden music by artists I liked. One of my favorite songs by her was <em><a href="https://www.youtube.com/watch?v=tOc1O1OYO0U">Listen to the Rain</a></em> I would listen to this song frequently on stormy nights in Texas.</p>
+</blockquote>
+<h4 id="the-infosec-seed-is-planted">The Infosec Seed is Planted<a hidden class="anchor" aria-hidden="true" href="#the-infosec-seed-is-planted">#</a></h4>
+<p>Next thing you know, I&rsquo;m hacking apart my old HP desktop &ndash; I wanted to play games, &ndash; but I did not have the computational, nay, the graphical power to do so. So I started learning how to break apart my games, mod in additional resources, learn how to squeeze as much performance as I could out of my systems. I&rsquo;d run Google searches in the library at school, print out guides, take them home &ndash; much different time from nowadays haha.</p>
+<blockquote>
+<p>✨  <strong>Fun Fact:</strong> I would modify the hell out Command &amp; Conquer: Tiberium Sun &amp; Unreal Tournament 99</p>
+</blockquote>
+<p>Then I discovered <em>hacking</em>. How? Well, Viruses, hackers, crackers, phreakers, would be showcased in magazines like <em>Game Informer</em> or I&rsquo;d watch interesting segments on <em>G4TV</em>, in addition, imagine seeing <em>Ghost in the Shell</em> and other such CyberPunk works on <em>Adult Swim</em>. As mentioned before I had little to no supervision, I would just watch shit lol. Shoutout for Goku for teaching me to believe in myself. ✌️</p>
+<p>One day, I believe I was about 12 years old; I recall there was a <em>Defcon</em> documentary on <em>TLC</em> (back when they still shared educational material lmao.) &ndash; at least I think it was TLC, it could have been Discovery. &ndash; But anyway, at this time in my little life, I was a little emo/goth/punk/rocker kid and expressed myself through dark music and other such things. I was a frequent shopper at the <em>Hot Topic</em> 😎</p>
+<p>And you know what I saw? Adult badass punkers, alternative life style folks, all showcasing their deep knowledge of hacking, breaking things, and joining together in community. People <strong>unafraid</strong> to show who they are, be loud, wild, while maintaining high degrees of intelligence.</p>
+<p>I knew, I wanted to be part of that. I knew that was my culture. I knew that one day, I&rsquo;d be there, I&rsquo;d do anything to be there.</p>
+<p>And I did it.</p>
+<h3 id="my-actual-start----highschool">My actual start &ndash; Highschool<a hidden class="anchor" aria-hidden="true" href="#my-actual-start----highschool">#</a></h3>
+<p>My freshman year of high-school, I joined a <em>computer maintenance</em> course taught by an immigrant, mentor, teacher, &amp; life-coach, from Haiti: Mr. C. I&rsquo;ll never forget, his words those early days.</p>
+<blockquote>
+<p><em>Get your A+, Network +, Security +, and I guarantee you will leave highschool your Sr. year earning $40,000-50,000 a year.</em></p>
+<p>&ndash; Mr. C</p>
+</blockquote>
+<p>For someone like me? That was all I needed to hear. That was the guiding principal, the north star I needed to find my way. And frankly? Mr. C was right. He was so right. My life &amp; career have been growing ever since that day ~17-18 years ago.</p>
+<p>So I did it, I earned my certifications, and eventually was qualified to join an early college program in San Antonio that would take students from all surrounding school district and place them in a classroom with college professors.</p>
+<blockquote>
+<p>✨  <strong>Fun Fact:</strong> I was a bit of an overachiever, I ended up graduating highschool with an A+, Net+, Sec+, C|EH (ew), and a CCNA.</p>
+</blockquote>
+<p>This is now my Junior year in highschool, I&rsquo;ve earned an A+ and a Network+, and I&rsquo;ve started getting recognition from the school board, principal, superintendent, it was whole thing. &ndash; It was fucking horrifying. Why? Because now you know my background, and it <strong>feels</strong> like it was all happening suddenly. I&rsquo;m getting all this recognition and award, but back home, it was just quiet, me and the country. My family didn&rsquo;t understand it, nor really tried to. My family never really showed up to my recognition ceremonies, and I knew that the teachers knew my situation, the administration, it was like a quiet, somber, elephant in the room. At this point, I&rsquo;m also starting to become isolated from friends, people started treating me differently.. It was a constant balance of stress, excitement, loneliness.</p>
+<p>The more I felt isolated, the more it pushed me to go further. I had nothing else, but the fruits of success provided through my professional and academic careers.</p>
+<h4 id="back-to-the-college-program">Back to the College Program<a hidden class="anchor" aria-hidden="true" href="#back-to-the-college-program">#</a></h4>
+<p>So as mentioned previously, we are now skipping to my Jr. year in highschool &ndash; <em>year 3</em> &ndash; I’m now part of this Information Technology &amp; Security Academy (ITSA) in San Antonio.</p>
+<p>Well as part of this program, we were expected to show up to class at about 8am. Between 8am -&gt; 12pm, we were in college, then after, we went back to our home highschools.</p>
+<p>Well, my professors knew I had obtained a couple certifications and I was asked to build &amp; lead a team for a program called <em><a href="https://www.uscyberpatriot.org/">Cyber Patriot</a></em>. It was the first of it&rsquo;s kind, but it mostly focused on &ndash; what we now call threat hunting, &ndash; vulnerability management and simple mitigation implementations.</p>
+<p>Throughout the flow of the competition, students were handed vulnerable images, and through those images, the students were expected to identify security flaws and fix them. The scoring bot on the system would catch these fixes and provide a score where you were going up against other highschool students across the entire United States. The images were typically Windows Servers, Linux Servers, even Cisco IOS images.</p>
+<p>Well, me and the team? We took third place nationally in Washington DC that year. So much so, <a href="https://www.mysanantonio.com/news/local/article/high-school-grads-landing-high-tech-security-3677823.php">we received recognition and praise across the entire city of San Antonio</a>.</p>
+<p><img alt="A photo of me with a banana in the background" loading="lazy" src="/images/profile-banana.jpg"></p>
+<blockquote>
+<p>✨  <strong>Fun Fact:</strong> I was hot shit c;</p>
+</blockquote>
+<h4 id="young-hacker-hired-by-the-military-yep-its-me">Young Hacker Hired by the Military, yep, it&rsquo;s me.<a hidden class="anchor" aria-hidden="true" href="#young-hacker-hired-by-the-military-yep-its-me">#</a></h4>
+<p>Well, in San Antonio is where Lackland AFB is located, where at the time, the 33rd Network Warfare Squadron was located. Somehow, through CyberPatriot, the Air Force Association and the Mayor&rsquo;s office, they found a way to get me and my team <strong>Secret</strong> clearances and internships in the Airforce&rsquo;s SOC. To put this into perspective, I am 16 years old. I come from a hard background, I lost myself in computers, hacking, the sub-culture, now I&rsquo;m being thrown into a military environment. It was wild.</p>
+<p>And this was my first job in Infosec. I learned how:</p>
+<ul>
+<li>To tune IPS/IDS sensors.</li>
+<li>Build IR processes &amp; playbooks.</li>
+<li>Learned to never tell my commanding officer that I was &lsquo;bored&rsquo;</li>
+<li>Respond to security events, analyze logs, network telemetry, apply investigative techniques.</li>
+</ul>
+<blockquote>
+<p>✨  <strong>Fun Fact:</strong> I once told my supervisor I was bored. Said supervisor had me shred classified documents for two days straight to teach me a lesson. Joke was on them though,I enjoyed sitting there having a mundane task lmaao.</p>
+</blockquote>
+<p>This experience will likely be a blog in and of itself. But TL;DR. I started very young in this career, a career that is atypical.</p>
+<p>At this stage, I was 16, I was making my own money, able to live by my own rules, and once I had that taste of independence, I never looked back. I carried that further into my 20&rsquo;s where I worked, and worked, and worked, to achieve further and go beyond so far and away from where I came from.</p>
+<p>I&rsquo;m 32 now, it&rsquo;s been a long path, but I&rsquo;m grateful I ended up where I did. That first taste of independence set the stage for the next 16 years of my career, a story I&rsquo;ll share in Part 2.</p>
+<hr>
+<h3 id="so-whats-next">So what&rsquo;s next?<a hidden class="anchor" aria-hidden="true" href="#so-whats-next">#</a></h3>
+<p>Well this is just part 1 of this series, as I get time, I&rsquo;ll add in more details on what I did after high-school, but this is general synopsis of my origin. I get asked quite a bit &ldquo;how did you get started?&rdquo; and well, as you can imagine, my story is not standard. Hell, my story is still be written, but I&rsquo;ll be sharing more here over time.</p>
+<hr>
+<h3 id="music-that-inspired-this-post-music-you-should-listen-to-while-reading">Music that inspired this post, music you should listen to while reading.<a hidden class="anchor" aria-hidden="true" href="#music-that-inspired-this-post-music-you-should-listen-to-while-reading">#</a></h3>
+<p>So when I write, when I share these memories, there&rsquo;s a soundtrack playing in my head, this section is dedicated to that music that got me through some of the hardest days of my life growing up. I recommend playing these songs while reading to understand where I&rsquo;m coming from.</p>
+<ul>
+<li><a href="https://open.spotify.com/track/7q6CybWAg3uYLgS5tDWqmd">Imaginary &ndash; Evanescence</a></li>
+<li><a href="https://open.spotify.com/track/1UREw2MCfU0xwBzCAjxlUD">Scars &ndash; Papa Roach</a></li>
+<li><a href="https://open.spotify.com/track/4rbc5CkMyU3F2kwiZLO2z6?si=641749a7bcda41f5">A Place for My Head &ndash; Linkin Park</a></li>
+<li><a href="https://open.spotify.com/track/5KSJ9k1FYjFLnIRlJT2wF8?si=1ed368e5da3d4d7b">Crossroads &ndash; Bone Thugz</a></li>
+<li></li>
+<li><a href="https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ?si=273038d232974e01">Nutshell &ndash; Alice in Chains</a></li>
+<li><a href="https://open.spotify.com/track/4BIWl6xOUupdv3jpWtPSDC?si=909d9913cc094d89"> Fully Alive &ndash; Flyleaf</a></li>
+<li><a href="https://open.spotify.com/track/1ir5oMNuxrNeCwUJFaEyum?si=d284c844047a49f3"> 44. Caliber Love Letter &ndash; AlexisOnFire</a></li>
+<li><a href="https://open.spotify.com/track/4eRtGBzP92gjIMOtal2kNB?si=baf3b37b3aab41aa">Short Stories w/ Tragic Endings &ndash; From Autumn to Ashes</a></li>
+<li><a href="https://open.spotify.com/track/4G8tbcZbPGGltARlf4ALkl?si=ae9405da49774211">The Only Medicine &ndash; Scary Kids Scaring Kids</a></li>
+<li><a href="https://open.spotify.com/track/6WII5QTkLtW5SglluYlBNY?si=066dd577e82a47f9">Monument &ndash; A Day to Remember</a></li>
+<li></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">0x.psilocyber // Infosec &amp; Sweet Snazzy Jams</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
