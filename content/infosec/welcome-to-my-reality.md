@@ -1,6 +1,3 @@
-
-## My path into Infosec -- Part 1
-
 ---
 title: "My Path into Infosec"
 date: 2025-08-20T19:45:26-07:00
@@ -148,11 +145,9 @@ So when I write, when I share these memories, there's a soundtrack playing in my
 * [Scars -- Papa Roach](https://open.spotify.com/track/1UREw2MCfU0xwBzCAjxlUD)
 * [A Place for My Head -- Linkin Park](https://open.spotify.com/track/4rbc5CkMyU3F2kwiZLO2z6?si=641749a7bcda41f5)
 * [Crossroads -- Bone Thugz](https://open.spotify.com/track/5KSJ9k1FYjFLnIRlJT2wF8?si=1ed368e5da3d4d7b)
-* 
 * [Nutshell -- Alice in Chains](https://open.spotify.com/track/2JuasWPUodaUxf5nwNpciQ?si=273038d232974e01)
 * [ Fully Alive -- Flyleaf](https://open.spotify.com/track/4BIWl6xOUupdv3jpWtPSDC?si=909d9913cc094d89)
 * [ 44. Caliber Love Letter -- AlexisOnFire](https://open.spotify.com/track/1ir5oMNuxrNeCwUJFaEyum?si=d284c844047a49f3)
 * [Short Stories w/ Tragic Endings -- From Autumn to Ashes](https://open.spotify.com/track/4eRtGBzP92gjIMOtal2kNB?si=baf3b37b3aab41aa)
 * [The Only Medicine -- Scary Kids Scaring Kids](https://open.spotify.com/track/4G8tbcZbPGGltARlf4ALkl?si=ae9405da49774211)
 * [Monument -- A Day to Remember](https://open.spotify.com/track/6WII5QTkLtW5SglluYlBNY?si=066dd577e82a47f9)
-* 
