@@ -8,11 +8,11 @@ draft: false
 > ℹ️  **Heads Up:** I write specifically keeping editing to a minimum. There are likely spelling, grammatical mistakes. I prefer to keep my thoughts as close to raw as possible, and sometimes that means going off on tangents. Thank you for reading, if you are not dissuaded.
 
 
-Hi, my name is Ricky, and at the time of this writing, I'm a senior incident responder for Google Cloud, specifically, I have built many of the processes that are utilized across GCP for responding to threats of various sizes and scale. 
+Hi, my name is Ricky, and at the time of this writing, I'm a senior incident responder for Google Cloud, I have built many of the cloud security response processes with my team that are utilized across GCP for responding to threats of various sizes and scale. 
 
-While that may sound impressive, it was not done in a vacuum, I learned from some of the best, specifically -- folks like [Matt Linton](https://mattlinton.com/blog/provingnegatives.html), [John Strand](https://www.blackhillsinfosec.com/team/john-strand/), [Jake Williams](https://infosec.exchange/@malwarejake), [Rob Lee](https://www.sans.org/profiles/rob-lee), [Lesley Carhart](https://tisiphone.net/), either through personal 1:1 mentorship, classes, or in general reading their blogs and education. All folks I look up to, admire, and aspire to become as I grow further in my career.
+While that may sound impressive, it was not done in a vacuum, I am supported by an excellent team, and leadership. Further, I learned from some of the best, specifically -- folks like [Matt Linton](https://mattlinton.com/blog/provingnegatives.html), [John Strand](https://www.blackhillsinfosec.com/team/john-strand/), [Jake Williams](https://infosec.exchange/@malwarejake), [Rob Lee](https://www.sans.org/profiles/rob-lee), [Lesley Carhart](https://tisiphone.net/), either through personal 1:1 mentorship, classes, or in general reading their writings and education. All folks I look up to, admire, and aspire to become as I grow further in my career.
 
-In addition, I've been lucky, privileged even, to work with amazing folks from Google who have honed and built up our IR processes for over a decade, influenced by processes such as the [Incident Command System (ICS)](https://emilms.fema.gov/is_0029a/groups/27.html). So while I may have constructed many of our new processes, I would not have been able to do so without the historical context and learnings of those who came before me, and are still improving to this day.
+Frankly, I've been lucky, privileged even, to work with amazing folks from Google who have honed and built up our IR processes for over a decade, influenced by processes such as the [Incident Command System (ICS)](https://emilms.fema.gov/is_0029a/groups/27.html). So while I may have had a guiding hand in constructing many of our new processes, I would not have been able to do so without the historical context and learnings of those who came before me, and are still improving to this day.
 
 --- 
 
@@ -26,6 +26,8 @@ At a glance, this is my professional profile:
 * Bachelor's degree from a small university in San Antonio.
 * Currently finishing Master's degree w/ SANS.
 * Responded to threats of many different sizes and scales. 
+* Spoken a few times at Defcon, Blue Team Village specifically.
+* Capture the Flag enthusiast (although, it's been a few years since competing.)
 
 --- 
 
@@ -34,11 +36,13 @@ At a glance, this is my professional profile:
 So here's where we get a little heavy I suppose. 
 
 ### Where I Come From
-I was born and raised in San Antonio, Texas. I did not come from wealth, nor did I come from a family with any sort of professional AND/OR formal education. My father was a gangster, worked the streets, utilized our familial ties to cartel interests to be part of and engaged with underworld markets. My mother, not much better, was drawn into that same life, growing up around shootings, drug deals, was just a normal part of life for me. 
+I was born and raised in San Antonio, Texas. I did not come from wealth, nor did I come from a family with any sort of professional AND/OR formal education. My father was a gangster, worked the streets, utilized our familial ties to cartel interests to be part of and engage with underworld markets. My mother, -- not much better, -- was drawn into that same life. Growing up around shootings, drug deals, was just a normal part of life for me. 
 
-As you can imagine, my parents didn't really raise me. I was tossed between whomever in my family would take responsibility for me week over week; if I recall correctly, I believe I was about *10 years old when my grandmother took me into a her small ranch* out in Lytle/Atascosa Texas. It was my **first time** with **my own bedroom**, if that gives you any indication of the life I had lead up until that point.
+As you can imagine, my parents didn't really raise me. I was tossed between whomever in my family would take responsibility for me week over week; if I recall correctly, I believe I was about **10 years old** when my grandmother took me into a her small ranch out in Lytle/Atascosa Texas. It was my **first time** with **my own bedroom**, if that gives you any indication of the life I had lead up until that point.
 
-Growing up, I spent much of my time alone. -- As a neurodiverse child in this environment, --  I found my own way to keep busy and distracted from.. Well the hell that was my childhood. That spurred particularly in my **interest w/ computers.** You see, my parents would show up **occasionally** in my life, and would love bomb me with gifts either via illicit gains or to *act* as well as they could to emulate paternal instincts. It wasn't until I was much older that I saw this for what it was. 
+Growing up, I spent much of my time alone. -- As a neurodiverse child in this environment, --  I found my own way to keep busy and distracted from.. The hell that was my childhood. 
+
+That spurred particularly in my **interest w/ computers.** You see, my parents would show up **occasionally** in my life, and would love bomb me with gifts either via illicit gains or to *act* as well as they could to emulate paternal instincts. It wasn't until I was much older that I saw this for what it was. 
 
 So every now and then, my father/mother would show up with a game console, or a computer, it was the only way they seemed to know to communicate with me. And well, to be frank, I am grateful they did that, because I would not be where I am without access to such tools. But beyond that, I had little in terms of life guidance, mentorship, I figured out a lot on my own... Little did I know that figuring shit out on my own, would be the primary theme of the life I have lived up until now.
 
@@ -46,30 +50,32 @@ So every now and then, my father/mother would show up with a game console, or a 
 
 ### Tinkering, Gaming, Music -- the early years.
 
-Well, now that you know that fun little bit of my background, this is the part where I share my Rocky Balboa montage of tinkering and breaking shit for fun and gainz. You see, I hated the life of crime my family spurred from. I remember once even crying in a Chuck E. Cheese because my mother wanted me to steal tokens from a machine to use on other games, Lol. But still, they taught me lessons of thievery, force, exploitation, general roguish behavior to get ahead in life. It always felt wrong.. But that was how I was raised early on. I was not an angel, but I did my best considering the environment.
+Well, now that you know that fun little bit of my background, this is the part where I share my Rocky Balboa montage of tinkering and breaking shit for fun and gainz. Kidding; frankly speaking, it was hard for me growing up, I hated the degeneracy, crime, drug usage/dealing, my family spurred from. I remember once even crying in a Chuck E. Cheese because my mother wanted me to steal tokens from a machine to use on other games, Lol. They taught me lessons of thievery, force, exploitation, general roguish behavior to get ahead in life. It always felt wrong.. But that was how I was raised early on. I was not an angel, but I did my best considering the environment.
 
 Looking back on it all, it’s no wonder I ended up in a career doing my best to respond to people and organizations that wish to cause harm.
 
 #### Escaping To the Country
 
-Thankfully, my grandmother showed me the value of hardwork, dedication, peace, quiet. She was a hard woman, dropped out of school in the 7th grade to tend to the familial ranch, pick cotton, raise animals, eventually she became a seamstress for Levi's between 1950-90's. Funnily enough, she ended up becoming an in-home assistant providing medical care to people who couldn't take care of themselves. I say funny, because she was doing this well into her late 70's taking care of people who were much younger than her. That being said, she is a hardworker, and is still to this day working on her yard, stayin' young.
+Thankfully, going to live with my grandmother showed me the value of hardwork, dedication, peace, quiet. She was a hard woman, dropped out of school in the 7th grade to tend to the familial ranch, pick cotton, raise animals, eventually she became a seamstress for Levi's between 1950-90's. Funnily enough, she ended up becoming an in-home medical assistant providing medical care to people who couldn't take care of themselves. I say funny, because she was doing this well into her late 70's taking care of people who were much younger than her. That being said, she is a hardworker, and is still to this day working on her yard, stayin' young.
 
-So with that backstory, most of my middle / highschool years, I lived alone on the ranch. I would explore the country, the lakes, go for walks on my own, little to no supervision, and found my own world out there in the country. I'd walk around with my cdplayer, blasting Linkin Park, Evancesence, Papa Roach, I thought I was so cool, Lol. But as you can imagine, I'd get bored, and would start *tinkering.*
+So with that backstory, most of my middle / highschool years, I lived alone on the ranch. I would explore the country, the creeks, trees, nature, go for walks on my own, little to no supervision, and found my own world out there in the country. I'd walk around with my cdplayer, blasting Linkin Park, Evancesence, Papa Roach, I thought I was so cool, Lol. But as you can imagine, I'd get bored, and would start *tinkering* with whatever technology I could get my hands on.
 
 > ✨  **Fun Fact:** Amy Lee began her singing career at 16 on an album called 'Origins.' I would use Kazaa and Limewire to find hidden music by artists I liked. One of my favorite songs by her was *[Listen to the Rain](https://www.youtube.com/watch?v=tOc1O1OYO0U)* I would listen to this song frequently on stormy nights in Texas.
 
 
 #### The Infosec Seed is Planted
 
-Next thing you know, I'm hacking apart my old HP desktop -- I wanted to play games, -- but I did not have the computational, nay, the graphical power to do so. So I started learning how to break apart my games, mod in additional resources, learn how to squeeze as much performance as I could out of my systems. I'd run Google searches in the library at school, print out guides, take them home -- much different time from nowadays haha.
+Next thing you know, I'm hacking apart my old HP desktop -- I primarily wanted to play games, -- but I did not have the computational, nay, the graphical power to do so. So I started learning how to break apart my games, mod in additional resources, learn how to squeeze as much performance as I could out of my systems. I'd run Google searches in the library at school, print out guides, take them home -- much different time from nowadays haha.
 
 > ✨  **Fun Fact:** I would modify the hell out Command & Conquer: Tiberium Sun & Unreal Tournament 99
 
-Then I discovered *hacking*. How? Well, Viruses, hackers, crackers, phreakers, would be showcased in magazines like *Game Informer* or I'd watch interesting segments on *G4TV*, in addition, imagine seeing *Ghost in the Shell* and other such CyberPunk works on *Adult Swim*. As mentioned before I had little to no supervision, I would just watch shit lol. Shoutout for Goku for teaching me to believe in myself. ✌️
+Then I discovered *hacking*. How? Well, malware, hackers, crackers, phreakers, would be showcased in magazines like *Game Informer* or I'd watch interesting technology segments on *G4TV*. Then in terms of media I would consume, I would watch *Ghost in the Shell*, *Gundam*, *Cowboy Bebop*, *Trigun*,  and other such CyberPunk works on *Adult Swim*. As you can imagine I had little to no supervision, I would just watch shit lol. 
 
-One day, I believe I was about 12 years old; I recall there was a *Defcon* documentary on *TLC* (back when they still shared educational material lmao.) -- at least I think it was TLC, it could have been Discovery. -- But anyway, at this time in my little life, I was a little emo/goth/punk/rocker kid and expressed myself through dark music and other such things. I was a frequent shopper at the *Hot Topic* 😎
+Shoutout to Goku for teaching me to believe in myself. ✌️
 
-And you know what I saw? Adult badass punkers, alternative life style folks, all showcasing their deep knowledge of hacking, breaking things, and joining together in community. People **unafraid** to show who they are, be loud, wild, while maintaining high degrees of intelligence.
+One day, I believe I was about 12 years old; I recall there was a *Defcon* documentary on *TLC* (back when they still shared educational material lmao.) -- at least I think it was TLC, it could have been *Discovery*, or *A&E* -- But anyway, at this time in my little life, I was a little emo/goth/punk/rocker kid and expressed myself through moody, angry, music and other such things. I was a frequent shopper at the *Hot Topic* 😎
+
+And you know what I saw when I watched that documentary? Adults, badass punkers, alternative life style folks, all showcasing their deep knowledge of hacking, breaking things, and joining together in community. People **unafraid** to show who they are, be loud, wild, while maintaining high degrees of intelligence.
 
 I knew, I wanted to be part of that. I knew that was my culture. I knew that one day, I'd be there, I'd do anything to be there.
 
@@ -77,7 +83,7 @@ And I did it.
 
 ### My actual start -- Highschool
 
-My freshman year of high-school, I joined a *computer maintenance* course taught by an immigrant, mentor, teacher, & life-coach, from Haiti: Mr. C. I'll never forget, his words those early days.
+Shifting gears a bit to my freshman year of high-school, I joined a *computer maintenance* course taught by an immigrant, mentor, teacher, & life-coach, from Haiti: Mr. C. I'll never forget, his words those early days.
 
  > *Get your A+, Network +, Security +, and I guarantee you will leave highschool your Sr. year earning $40,000-50,000 a year.*
  > 
@@ -89,22 +95,26 @@ So I did it, I earned my certifications, and eventually was qualified to join an
 
 > ✨  **Fun Fact:** I was a bit of an overachiever, I ended up graduating highschool with an A+, Net+, Sec+, C|EH (ew), and a CCNA.
 
-This is now my Junior year in highschool, I've earned an A+ and a Network+, and I've started getting recognition from the school board, principal, superintendent, it was whole thing. -- It was fucking horrifying. Why? Because now you know my background, and it **feels** like it was all happening suddenly. I'm getting all this recognition and award, but back home, it was just quiet, me and the country. My family didn't understand it, nor really tried to. My family never really showed up to my recognition ceremonies, and I knew that the teachers knew my situation, the administration, it was like a quiet, somber, elephant in the room. At this point, I'm also starting to become isolated from friends, people started treating me differently.. It was a constant balance of stress, excitement, loneliness. 
+Moving on a couple years, we focus now on my Junior year in highschool, I've earned an A+ and a Network+, and I've started getting recognition from the school board, principal, superintendent, it was whole thing. -- It was fucking horrifying. Why? Because now you know my background, and it ***feels*** like it was all happening suddenly. I'm getting all of this recognition and rewards, but back home, it was just quiet, me and the country. 
 
-The more I felt isolated, the more it pushed me to go further. I had nothing else, but the fruits of success provided through my professional and academic careers.
+My family didn't understand it, nor really tried to. My family never really showed up to my recognition ceremonies, and I knew that the teachers, administration, counselors all understood my situation. It was like a quiet, somber, gigantic elephant in the room that was recognized but never discussed. It didn't help that at this point, I'm also starting to become isolated from friends, the other kids started treating me differently.. It was a constant balance of stress, excitement, loneliness. 
+
+The more I felt isolated, the more it pushed me to go further. I had nothing else, but the fruits of success provided through my professional and academic careers. I wanted to prove to everyone I would not become my parents, and that I was not destined to to repeat the cycle.
 
 #### Back to the College Program
 
-So as mentioned previously, we are now skipping to my Jr. year in highschool -- *year 3* -- I’m now part of this Information Technology & Security Academy (ITSA) in San Antonio. 
+So as mentioned previously, we are now in my Jr. year in highschool -- *year 3* -- I’m now part of this Information Technology & Security Academy (ITSA) in San Antonio. 
 
 Well as part of this program, we were expected to show up to class at about 8am. Between 8am -> 12pm, we were in college, then after, we went back to our home highschools. 
 
-Well, my professors knew I had obtained a couple certifications and I was asked to build & lead a team for a program called *[Cyber Patriot](https://www.uscyberpatriot.org/
-)*. It was the first of it's kind, but it mostly focused on -- what we now call threat hunting, -- vulnerability management and simple mitigation implementations. 
+My professors knew I had obtained a couple certifications and I was asked to build & lead a team for a program called *[Cyber Patriot](https://www.uscyberpatriot.org/
+)*. It was the first of it's kind, but it mostly focused on -- what we now call threat hunting, -- vulnerability management and simple mitigation implementations for high-school students. 
 
-Throughout the flow of the competition, students were handed vulnerable images, and through those images, the students were expected to identify security flaws and fix them. The scoring bot on the system would catch these fixes and provide a score where you were going up against other highschool students across the entire United States. The images were typically Windows Servers, Linux Servers, even Cisco IOS images. 
+Throughout the flow of the competition, students were handed vulnerable images, and the students were expected to identify security flaws and fix them. The scoring bot on the system would catch these fixes and provide a score where you were going up against other highschool students across the entire United States. The images were typically Windows Servers, Linux Servers, even Cisco IOS routers/switches. 
 
-Well, me and the team? We took third place nationally in Washington DC that year. So much so, [we received recognition and praise across the entire city of San Antonio](https://www.mysanantonio.com/news/local/article/high-school-grads-landing-high-tech-security-3677823.php
+> ✨  **Fun Fact:** We had mentors who came from the USAF and other cyber organizations to teach us. In addition, the Air Force Association provided training materials and books for the students. For the most part, it was all self-study and tinkering.
+
+That first year, we took third place nationally in Washington DC beating out thousands of other teams across the country.  It was a humbling experience, for a guy like me, where I came from, it was surreal receiving recognition like this, to be greeted by city leaders, to be literally paraded around the Riverwalk. -- No I'm not kidding, I was put into a parade dressed in a ridiculous costume, unfortunately, I don't think I have pictures. -- [Here's evidence, this is an article from 2012, one of many lol.](https://www.mysanantonio.com/news/local/article/high-school-grads-landing-high-tech-security-3677823.php
 ).
 
 ![A photo of me with a banana in the background](/images/profile-banana.jpg) 
@@ -113,19 +123,25 @@ Well, me and the team? We took third place nationally in Washington DC that year
 
 #### Young Hacker Hired by the Military, yep, it's me.
 
-Well, in San Antonio is where Lackland AFB is located, where at the time, the 33rd Network Warfare Squadron was located. Somehow, through CyberPatriot, the Air Force Association and the Mayor's office, they found a way to get me and my team **Secret** clearances and internships in the Airforce's SOC. To put this into perspective, I am 16 years old. I come from a hard background, I lost myself in computers, hacking, the sub-culture, now I'm being thrown into a military environment. It was wild.
+San Antonio is where Lackland AFB is located, where at the time, the 33rd Network Warfare Squadron was located. Advocates from CyberPatriot, the Air Force Association, the Mayor's office, and local military leaders worked and found a way to get me and my team **Secret** clearances and internships in the Airforce's SOC. 
+
+I feel like I need to recap here. To put this into perspective: I am 16 years old. I come from a hard background, I lost myself in computers, hacking, the sub-culture, now I'm being thrown into a military environment. It was wild.
 
 And this was my first job in Infosec. I learned how: 
 * To tune IPS/IDS sensors.
 * Build IR processes & playbooks.
 * Learned to never tell my commanding officer that I was 'bored'
 * Respond to security events, analyze logs, network telemetry, apply investigative techniques.
+* Even got to work with the Office of Special Investigation on a case or two.
+* Participated in Red Flag.
 
 > ✨  **Fun Fact:** I once told my supervisor I was bored. Said supervisor had me shred classified documents for two days straight to teach me a lesson. Joke was on them though,I enjoyed sitting there having a mundane task lmaao.
 
-This experience will likely be a blog in and of itself. But TL;DR. I started very young in this career, a career that is atypical. 
+My experience working for the military as a teen will likely be a blog in and of itself. But TL;DR. I started very young in this career, a career that is atypical. 
 
-At this stage, I was 16, I was making my own money, able to live by my own rules, and once I had that taste of independence, I never looked back. I carried that further into my 20's where I worked, and worked, and worked, to achieve further and go beyond so far and away from where I came from.
+Now imagine, I was 16, I was making my own money, able to live by my own rules, and once I had that taste of independence, I never looked back. I carried that further into my 20's where I worked, and worked, and worked, to achieve further and go beyond so far and away from where I came from. I wanted to leave everything behind, to be on my own, to see and do things someone from my background is not *expected* to be able to accomplish.
+
+> ✨  **Fun Fact:** My first ride was a motorcycle, Kawasaki Ninja, 95' -- terrible fucking decision, but I was a teenager lol. I ended up wiping out on a country road alone, and never picked the bike up again. I may ride again, who knows.
 
 I'm 32 now, it's been a long path, but I'm grateful I ended up where I did. That first taste of independence set the stage for the next 16 years of my career, a story I'll share in Part 2.
 
