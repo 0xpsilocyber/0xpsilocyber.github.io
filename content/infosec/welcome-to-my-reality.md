@@ -1,5 +1,5 @@
 ---
-title: "My Path into Infosec"
+title: "My Path into Infosec -- Part 1"
 date: 2025-08-20T00:00:00-00:00
 draft: false
 ---
