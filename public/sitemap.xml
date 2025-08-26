@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-20T19:45:26-07:00</lastmod>
+    <loc>https://0xpsilocyber.com/</loc>
+    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/infosec/</loc>
-    <lastmod>2025-08-20T19:45:26-07:00</lastmod>
+    <loc>https://0xpsilocyber.com/music/hurricane/</loc>
+    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/music/</loc>
+    <loc>https://0xpsilocyber.com/music/</loc>
+    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://0xpsilocyber.com/infosec/</loc>
+    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://0xpsilocyber.com/infosec/welcome-to-my-reality/</loc>
+    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://0xpsilocyber.com/music/hands-dirty/</loc>
     <lastmod>2025-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/music/hands-dirty/</loc>
-    <lastmod>2025-08-19T00:00:00+00:00</lastmod>
+    <loc>https://0xpsilocyber.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/infosec/welcome-to-my-reality/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://0xpsilocyber.com/tags/</loc>
   </url>
 </urlset>
