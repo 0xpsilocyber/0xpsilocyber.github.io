@@ -48,7 +48,7 @@ Lyrically, this song is rather simple, but powerful.
 > *I wanna take you higher, away, away, away.*
 > *Take you somewhere far away, away, away.*
 
-Simple sure, but man do these lyrics hit when you're under the influence. Even without the influence, if you close your highs and allow the music to feed to your soul. It can take you places higher. Higher to me is a state of consciousness. It is to go beyond your normal perception of reality. To see into the universe for what it is, a beautiful, chaotic, explosion of color, shapes, and experiences.
+Simple sure, but man do these lyrics hit when you're under the influence. Even without the influence, if you close your eyes and allow the music to feed to your soul. It can take you places higher. Higher to me is a state of consciousness. It is to go beyond your normal perception of reality. To see into the universe for what it is, a beautiful, chaotic, explosion of color, shapes, and experiences.
 
 > *I can bring a change*
 > *I can bring the thunder and the rain*
@@ -59,12 +59,12 @@ To me, this is all about shaping your reality. To come into your own skin, to be
 
 In the song, the artist regularly mentions *I'm coming back...* this to me means that we all fall off our paths, forget who we are, but we have the power -- like the strength of a hurricane, -- to bend reality as we see fit. We all have the **power to change**, we get to chose how we are defined, what we stand for, what we believe, and who we fight for.
 
-> We can blow them over
-> We can take them out if you stay
-> This is just a warning
-> Nothing's standing in my way
-> I've told you before
-> I'm coming back like a hurricane.
+> *We can blow them over*
+> *We can take them out if you stay*
+> *This is just a warning*
+> *Nothing's standing in my way*
+> *I've told you before*
+> *I'm coming back like a hurricane.*
 
 :) there it is. 
 
